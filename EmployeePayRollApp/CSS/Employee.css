@@ -82,9 +82,18 @@ label{
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    /* width: 100%;
-    padding: 12px;
-    border: 1px sol #ccc;
-    border-radius: 4px;
-    resize: vertical; */
+}
+.profile-redio-content{
+    display: flex;
+    flex-direction: row;
+}
+.profile-redio-content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 12px;
 }
